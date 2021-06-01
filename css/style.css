@@ -5,15 +5,19 @@ body{
 h1,h2{
     text-align: center;
 }
-code {
-    /* font-family: monospace; */
-    color: red;
+.tag{
+    color: rgb(194, 6, 6); 
 }
-.teg::before{
-content: "<";
-/* color: red; */
+.tag::before{
+    content: "<";
 }
-.teg::after{
+.tag::after{
     content: ">";
-    /* color: red; */
+}
+
+.html{
+    background-color: rgb(225, 225, 225);
+}
+xmp{
+    color: rgb(194, 6, 6);
 }
