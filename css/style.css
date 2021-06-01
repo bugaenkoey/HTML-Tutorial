@@ -1,0 +1,19 @@
+body{
+    margin: 25px;
+    background-color: rgb(245, 245, 245);
+}
+h1,h2{
+    text-align: center;
+}
+code {
+    /* font-family: monospace; */
+    color: red;
+}
+.teg::before{
+content: "<";
+/* color: red; */
+}
+.teg::after{
+    content: ">";
+    /* color: red; */
+}
