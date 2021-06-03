@@ -1,6 +1,7 @@
 body{
     margin: 25px;
     background-color: rgb(245, 245, 245);
+    font-family: sans-serif;
 }
 h1,h2{
     text-align: center;
@@ -17,11 +18,13 @@ h1,h2{
 
 .html{
     background-color: rgb(225, 225, 225);
-}
-xmp{
     color: rgb(194, 6, 6);
 }
-.lt_gt{
-    
-    color: rgb(194, 6, 6); 
+
+div.html span{
+    color: black;
+}
+footer .tags span{
+    background-color: rgb(220, 220, 220);
+    color: rgb(96, 164, 166);
 }
