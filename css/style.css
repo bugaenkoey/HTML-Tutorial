@@ -24,11 +24,7 @@ h1,h2{
 div.html span{
     color: black;
 }
-footer .tags span{
-    background-color: rgb(220, 220, 220);
-    color: rgb(96, 164, 166);
-}
-footer .tags a{
+footer  a{
     text-decoration: none;
     background-color: rgb(220, 220, 220);
     color: rgb(96, 164, 166);
